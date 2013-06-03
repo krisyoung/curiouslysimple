@@ -1,0 +1,173 @@
+/*== MOBILE UPWARDS ==============================*/
+.cs-section-header {
+    h1 {
+        margin: 1.25rem 0;
+        font-size: 4.875rem;
+        line-height: 5rem;
+        font-weight: 700;
+        letter-spacing: -0.045em;
+        color: #161616;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 1),
+                     0 1px 0 rgba(255, 255, 255, 1);
+        border-bottom: solid 0.375rem #3DA6F0;
+    }
+}
+
+.cs-component h2 {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+}
+
+
+
+.cs-component-header {
+    border-bottom: solid 0.1875rem #3DA6F0;
+    margin: 1.25rem 0;
+    h1 {
+        margin: 0;
+        font-size: 2rem;
+        line-height: 2.3125rem;
+        font-weight: 700;
+        letter-spacing: -0.045em;
+        color: #161616;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 1),
+                     0 1px 0 rgba(255, 255, 255, 1);
+
+    }
+}
+
+
+.cs-component-about {
+    text-align: center;
+    .cs-component-header {
+        margin-bottom: 1.25rem;
+        padding: 1.25rem;
+        h1 {
+            margin: 0 0 1.25rem;
+            font-size: 3rem;
+            line-height: 3.75rem;
+            font-weight: 700;
+            letter-spacing: -0.045em;
+            color: #3DA6F0;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 1),
+                         0 1px 0 rgba(255, 255, 255, 1);
+            .roles {
+                display: block;
+                font-size: 1.375rem;
+                line-height: 1.25rem;
+                font-weight: 400;
+                color: #999;
+                text-shadow: none;
+            }
+        }
+        h2 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            margin: 0 10%;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 1),
+                         0 1px 0 rgba(255, 255, 255, 1);
+        }
+    }
+    .byline {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 1.25rem;
+    }
+}
+
+.cs-component-recommendations {
+    text-align: center;
+    margin: 0 70px;
+    blockquote {
+        padding: 1.25rem 0.625rem;
+        p {
+            text-indent: 2rem;
+            font-size: 0.875rem;
+            font-style: italic;
+            line-height: 1.25rem;
+            color: #666;
+            position: relative;
+            &::before {
+                content: "\201C";
+                position: absolute;
+                left: -2.5rem;
+                top: 2rem;
+                font-size: 6rem;
+                line-height: 1.25rem;
+                vertical-align: -1rem;
+                display: inline-block;
+                color: rgba(#3DA6F0, 0.4);
+            };
+            &::after {
+                content: "\201D";
+                color: rgba(#3DA6F0, 0.4);
+                font-size: 3rem;
+                line-height: 1.25rem;
+                vertical-align: -1.25rem
+            };
+        }
+        footer {
+            margin-top: 1.25rem;
+            text-align: right;
+            font-size: 1.125rem;
+            color: #3DA6F0;
+            .role {
+                display: block;
+                color: #333;
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    .carousel-control {
+        border: 0;
+        background: 0;
+        color: #3DA6F0;
+        &.left {
+            left: -60px;
+        }
+        &.right {
+            right: -60px;
+        }
+    }
+}
+
+.skills-list {
+    display: block;
+    margin: 1.25rem 0;
+    list-style: none;
+    li {
+        display: inline-block;
+        &::after {
+            content: "; "
+        }
+    }
+}
+
+.cs-component-skills {
+    overflow: hidden;
+}
+
+.skills-chart {
+    float: right;
+    margin-top:  -6rem;
+}
+
+.cs-component-interests .interest {
+    text-align: center;
+}
+
+/*== TABLET UPWARDS ==============================*/
+@media (min-width: 768px)  {}
+
+/*== TABLET ONLY =================================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== STD DESKTOP UPWARDS =========================*/
+@media (min-width: 768px)  {}
+
+/*== STD DESKTOP ONLY ============================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== WIDESCREEN UPWARDS ==========================*/
+@media (min-width: 980px)  {}

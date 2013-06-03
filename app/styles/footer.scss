@@ -1,0 +1,67 @@
+/*== MOBILE UPWARDS ==============================*/
+.cs-app-footer {
+    padding-top: 1.25rem;
+    font-size: 0.75rem;
+    color: #999;
+    text-align: center;
+}
+
+.social-links {
+    margin: 0;
+    list-style: none;
+    font-size: 0;
+    border-bottom: 1px rgba(255, 255, 255, 0.6) solid;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
+    padding-bottom: 0.625rem;
+    margin-bottom: 0.5625rem;
+    li {
+        display: inline-block;
+        margin-left: 10px;
+        a {
+            display: block;
+            width: 24px;
+            height: 24px;
+            text-indent: -9999rem;
+            text-align: left;
+            background-image: url(../images/social-sprite.png);
+            cursor: pointer;
+        }
+    }
+    .social-link-email a { background-position: 0 0; }
+    .social-link-twitter a { background-position: -24px 0; }
+    .social-link-facebook a { background-position: -48px 0; }
+    .social-link-gplus a { background-position: -72px 0; }
+    .social-link-behance a { background-position: -96px 0; }
+    .social-link-linkedin a { background-position: -120px 0; }
+    .social-link-dribbble a { background-position: -144px 0; }
+    .social-link-email a:hover { background-position: 0 -24px; }
+    .social-link-twitter a:hover { background-position: -24px -24px; }
+    .social-link-facebook a:hover { background-position: -48px -24px; }
+    .social-link-gplus a:hover { background-position: -72px -24px; }
+    .social-link-behance a:hover { background-position: -96px -24px; }
+    .social-link-linkedin a:hover { background-position: -120px -24px; }
+    .social-link-dribbble a:hover { background-position: -144px -24px; }
+
+
+}
+
+/*== TABLET UPWARDS ==============================*/
+@media (min-width: 768px)  {
+    .cs-app-footer {
+        text-align: right;
+    }
+}
+
+/*== TABLET ONLY =================================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== STD DESKTOP UPWARDS =========================*/
+@media (min-width: 768px)  {
+
+}
+
+/*== STD DESKTOP ONLY ============================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== WIDESCREEN UPWARDS ==========================*/
+@media (min-width: 980px)  {}

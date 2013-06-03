@@ -1,0 +1,68 @@
+/*== MOBILE UPWARDS ==============================*/
+
+body {
+    font: 400 normal 100%/1.25em "PT Sans Narrow", sans-serif;
+    background: url(../images/main-bg.jpg) repeat;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.container-fluid {
+    max-width: 940px;
+}
+
+.cs-app-sidebar {
+    margin-top: 10px;
+    padding: 20px;
+    background: rgba(#161616, 0.05);
+    box-shadow: inset 0 -2px 4px 0 rgba(0,0,0,0.2),
+                inset 0 -4px 16px 0 rgba(0,0,0,0.05),
+                0 1px 0 0 rgba(255,255,255,1),
+                0 -10px 0 0 rgba(0,0,0,0.1),
+                0 -4px 16px 0 rgba(0,0,0,0.05),
+                0 -2px 4px 0 rgba(0,0,0,0.2),
+                inset 0 1px 0 0 rgba(255,255,255,1);
+    border: 0 solid rgba(#161616, 0.2);
+    border-width: 1px 0;
+}
+
+.cs-app-content {
+    padding: 20px;
+}
+
+/*== TABLET UPWARDS ==============================*/
+@media (min-width: 768px)  {}
+
+/*== TABLET ONLY =================================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== STD DESKTOP UPWARDS =========================*/
+@media (min-width: 768px)  {
+    .cs-app-sidebar {
+        margin: 0 0 0 10px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 400px;
+        box-shadow: inset -2px 0 4px 0 rgba(0,0,0,0.2),
+                    inset -4px 0 16px 0 rgba(0,0,0,0.05),
+                    1px 0 0 0 rgba(255,255,255,1),
+                    -10px 0 0 0 rgba(0,0,0,0.1),
+                    -4px 0 16px 0 rgba(0,0,0,0.05),
+                    -2px 0 4px 0 rgba(0,0,0,0.2),
+                    inset 1px 0 0 0 rgba(255,255,255,1);
+        border-width: 0 1px;
+    }
+
+    .cs-app-content {
+        margin-left: 440px;
+    }
+
+}
+
+/*== STD DESKTOP ONLY ============================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== WIDESCREEN UPWARDS ==========================*/
+@media (min-width: 980px)  {}

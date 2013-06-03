@@ -1,0 +1,55 @@
+/*== MOBILE UPWARDS ==============================*/
+.cs-app-nav {
+    position: relative;
+    text-align: center;
+    padding-bottom: 1.25rem;
+    ul {
+        margin: 0;
+        list-style: none;
+        font-size: 0;
+        text-transform: lowercase;
+    }
+    li {
+        display: inline-block;
+        margin: 0 0.625rem;
+        font-size: 1rem;
+    }
+    a {
+        color: #333;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .cs-highlight {
+        position: absolute;
+        bottom: 1rem;
+        background: #3DA6F0;
+        height: 0.375rem;
+        @include transition(all, 0.3s, linear)
+    }
+
+}
+
+/*== TABLET UPWARDS ==============================*/
+@media (min-width: 768px)  {
+    .cs-app-nav {
+        text-align: right;
+
+        li {
+            margin: 0 0 0 1.25rem;
+        }
+    }
+}
+
+/*== TABLET ONLY =================================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== STD DESKTOP UPWARDS =========================*/
+@media (min-width: 768px)  {
+
+}
+
+/*== STD DESKTOP ONLY ============================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== WIDESCREEN UPWARDS ==========================*/
+@media (min-width: 980px)  {}

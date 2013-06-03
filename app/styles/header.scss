@@ -1,0 +1,62 @@
+/*== MOBILE UPWARDS ==============================*/
+.cs-app-header {
+    padding: 120px 0 0 0;
+    min-height: 110px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    border-bottom: 1px rgba(255, 255, 255, 0.6) solid;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
+    margin-bottom: 1.1875rem;
+
+    h1 {
+        margin: 1.25rem 0 0;
+        font-size: 3rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        letter-spacing: -0.045em;
+        color: #161616;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 1),
+                     0 1px 0 rgba(255, 255, 255, 1);
+    }
+    h2 {
+        margin: 0;
+        font-size: 1.375rem;
+        line-height: 1.25rem;
+        font-weight: 700;
+        letter-spacing: -0.045em;
+        color: #999;
+
+        .owner {
+            font-size: 1.125rem;
+            font-weight: 400;
+        }
+    }
+}
+
+/*== TABLET UPWARDS ==============================*/
+@media (min-width: 768px)  {
+    .cs-app-header {
+        padding: 1.25rem 0 0 120px;
+        background-position: top left;
+        text-align: right;
+        h1 {
+            margin: 0;
+        }
+    }
+}
+
+/*== TABLET ONLY =================================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== STD DESKTOP UPWARDS =========================*/
+@media (min-width: 768px)  {
+
+}
+
+/*== STD DESKTOP ONLY ============================*/
+@media (max-width: 979px) and (min-width: 768px) {}
+
+/*== WIDESCREEN UPWARDS ==========================*/
+@media (min-width: 980px)  {}
